@@ -1,0 +1,49 @@
+scrivere un programma stringhe.php che dimostri gli effetti delle funzioni che elaborano le stringhe
+
+
+si definiscano tre variabili: 
+
+$testo = "Questo è il testo principale, che contiene tante informazioni utili";
+$a = "informazioni" ;
+$nuovo = "notizie" ;
+
+
+usando le funzioni viste nelle slide eseguire questi compiti: 
+
+1) con la funzione  strlen() stampare a video la lunghezza della  variaible $testo,
+scrivendo : 
+
+la variabile $testo è lunga 25 caratteri
+(al posto di 25 deve essere indicato il valore corretto )
+
+si usi la sintassi breve 
+<?=  strlen($testo) ?>
+
+
+
+2) convertire in maiuscolo il testo presente nella stringa $a   memorizzandolo nella variabile
+$b e poi stamparla a video
+
+
+3) contare in quale posizione si trova la stringa "il" nella variabile $testo
+
+4) si crei una nuova variabile $nuovotesto ottenuta da $testo sostituendo 
+la stringa "informazioni" con la stringa "notizie".
+si usi la funzione str_replace() consultando il manuale su phpnet per comprendere la sintassi
+
+
+
+
+5) usare le funzioni di manipolazione delle stringhe dopo aver definito 
+$nome = "arancia" ;
+$titolo = "<title>sport per tutti</title>";
+$importo = 10.99  ;
+
+usare le funzioni indicate e stampare il risultato:
+str_shuffle()
+ucfirst()
+strip_tags()
+number_format()  // stampare solo 1 decimale
+
+
+ 

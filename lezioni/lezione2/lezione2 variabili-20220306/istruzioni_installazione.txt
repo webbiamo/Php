@@ -1,0 +1,42 @@
+installare scaricando da https://bitnami.com/stack/wordpress/installer
+
+a) disabilita varnish
+b) non attivare il cloud
+c) creare utente  u:admin p:user 
+
+d) per lanciarlo a inizio lavoro: 
+dalla mia home
+-> wordpress5.1xxx
+-> click su manager-linux-x64.run
+e) accedere con il browser a 127.0.0.1:8080
+o cliccare sulla console di gestione
+
+
+creare:  
+home-> wordpress-5.6.0/apache2/htdocs/serverside
+
+e scrivere il file hello.php che contiene: 
+
+echo "Hello world!";
+
+aprire:
+http://localhost:8080/serverside/hello.php
+
+
+
+modificare il file 
+php/etc/php.ini e disabilitare la cache di 
+opcache, da
+opcache.enable=1
+a:
+opcache.enable=0
+
+inoltre 
+da
+display_errors = Off
+a
+display_errors = On
+
+
+
+

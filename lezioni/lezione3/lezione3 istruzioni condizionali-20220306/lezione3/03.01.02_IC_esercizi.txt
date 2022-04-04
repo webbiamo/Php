@@ -1,0 +1,96 @@
+esercizi svolti
+e1) date due variabili contenenti dei numeri interi, stampare il valore massimo:
+
+svolgimento
+$a= 3; 
+$b= 5;
+
+if ($a > $b ){
+	echo $a;
+} else {
+	echo $b;
+}
+
+e2)
+date due variabili  contenenti dei numeri interi, stampare il  valore maggiore e il nome della variabile:
+$a= 3; 
+$b= 5;
+
+svolgimento
+
+if ($a > $b ){
+	echo 'la variabile maggiore è $a e vale' . $a;
+} else {
+	echo 'la variabile maggiore è $b e vale ' . $b;
+	
+}
+
+e3) 
+correggere il programma precedente tenendo conto del fatto che le due variabili possono avere lo stesso valore:
+$a= 3; 
+$b= 5;
+
+if ($a > $b ){
+	echo 'la variabile maggiore è $a e vale' . $a;
+} else if ($a== $b) {
+	echo 'le variabili hanno lo stesso valore:  ' . $a;
+	
+}else {
+	echo 'la variabile maggiore è $b e vale' . $b;
+
+}
+
+
+// oppure
+$a= 3; 
+$b= 5;
+
+if ($a > $b ){
+	echo 'la variabile maggiore è $a e vale' . $a;
+} else if ($a <  $b) {
+	echo 'la variabile maggiore è $b e vale' . $b;
+}else {
+	echo 'le variabili hanno lo stesso valore:  ' . $a;
+
+}
+
+
+
+
+// esercizi da svolgere
+1.1) dato un array di numeri, confrontare il primo e il secondo elemento e stampare il maggiore
+
+1.2) data la variabile $segreta, verificare con la funzione gettype() di che tipo sia e stampare:
+"la variabile è di tipo stringa" se il tipo è string
+"la variabile è di tipo intero" se il tipo è int
+
+2) date le stringhe $testo1="il giornale di oggi" e la stringa $testo2= "il cinema moderno" stampare, 
+in funzione delle effettive lunghezze delle stringhe:
+
+il testo uno ha una lunghezza maggiore del testo due
+oppure 
+il testo due ha una lunghezza maggiore del testo uno
+oppure 
+12:16 30/01/2019
+
+
+3) usare il costrutto switch() per stampare un testo diverso a seconda del valore della variabile $vacanza
+Se la variabile vale: mare scrivere: 
+"abbiamo delle bellissime spiagge"
+se la variabile vale: monti scrivere: 
+"le più belle passeggiate ti aspettano"
+in tutti gli altri casi scrivere: 
+"cultura, sport e spettacolo ti aspettano tutto l'anno"
+
+$scelta = "";
+
+switch($scelta){
+
+case : ' mare'
+
+
+
+
+}
+
+

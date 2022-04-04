@@ -1,0 +1,17 @@
+
+
+scrivere una funzione che restituisca il massimo tra due numeri ricevuti
+scrivere una funzione che restituisca il massimo tra i numeri numeri ricevuti passati come array
+scrivere una funzione che restituisca il massimo tra i numeri numeri ricevuti passati singoli valori (si usi la sintassi variadic)
+
+scrivere una funzione che restituisca la media dei valori ricevuti
+
+
+scrivere una funzione che restituisca un array con il massimo, il minimo, la media dei valori ricevuti come array
+
+scrivere una funzione ricorrenze() che ricevendo una stringa di parole conti le ricorrenze delle singole parole e restituisca come risultato un array associativo
+in cui la chiave è una parola e il valore è il numero di volte che la parola compare nella stringa originaria:
+(si usi la funzione split())
+
+
+

@@ -1,0 +1,13 @@
+aprire il file .bashrc ed aggiungere:
+
+
+
+
+
+
+# set PATH so it includes php dir 
+if [ -d "$HOME/serverside/php/bin" ] ; then
+    PATH="$HOME/serverside/php/bin:$PATH"
+fi
+ export PATH
+

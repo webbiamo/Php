@@ -1,0 +1,15 @@
+scrivere un array che contenga ordinati questi elementi:
+
+mela, pera, banana
+
+stampare il secondo elemento
+
+scrivere un array che contenga come chiave il nome dei frutti (mela, pera, banana) 
+e come valore il colore del frutto ("giallo", "verde", "giallo")
+
+
+
+all'array appena definito aggiungere un nuovo valore:
+nocciola con colore marrone
+
+
